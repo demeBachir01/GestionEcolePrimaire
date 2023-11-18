@@ -13,11 +13,15 @@ import java.util.List;
 @Data
 public class Etablissement {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    private Long id;
     private String nomEtablissement;
     @OneToOne
     private Directeur directeur;
-    @OneToMany
+    @OneToMany(mappedBy = "etablissements")
     private List<Maitre> maitres;
+    @OneToMany
+    private List<Licence> licences;
+    @OneToOne
+    private Secretaire secretaire;
 }

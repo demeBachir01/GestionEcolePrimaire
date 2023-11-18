@@ -13,9 +13,9 @@ import java.util.List;
 @Data
 public class Niveau {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
-    private String nomNiveau;
-    @OneToMany
-    private Collection<classe> classe;
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    private Long id;
+    private String nom;
+    @OneToMany(mappedBy = "niveaux")
+    private List<classe> classe;
 }

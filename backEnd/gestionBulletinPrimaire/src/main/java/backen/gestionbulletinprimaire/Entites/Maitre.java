@@ -12,12 +12,10 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
+@PrimaryKeyJoinColumn(name = "id")
 public class Maitre extends Personne {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
-    @OneToOne
-    private Etablissement etablissement;
-    @OneToMany
-    private Collection<classe> classes;
+    @ManyToOne
+    private Etablissement etablissements;
+    @ManyToMany
+    private List<classe> classes;
 }

@@ -15,17 +15,17 @@ import java.util.List;
 @Data
 public class Eleve {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    private Long id;
     private String nom;
     private String prenom;
     private String adresse;
-    private String matricule;
+    private Long matricule;
     private Date dateNaissance;
-    private String classeActuel;
-    @ManyToOne
-    private classe classe;
-    @OneToMany
-    private Collection<Composition> composition;
+    private String lieuDeNaissance;
+    @ManyToMany
+    private List<classe> classe;
+    @OneToMany(mappedBy = "eleve")
+    private List<Composition> compositions;
 
 }

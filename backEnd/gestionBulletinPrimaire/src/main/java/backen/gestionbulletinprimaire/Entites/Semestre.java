@@ -6,6 +6,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.Collection;
+import java.util.List;
+
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
@@ -13,10 +15,10 @@ import java.util.Collection;
 public class Semestre {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
-    private String nomSemestre;
-    @OneToMany
-    private Collection<Composition>composition;
+    private Long id;
+    private Long numSemestre;
+    @ManyToMany
+    private List<Composition> composition;
     @ManyToOne
     private Annee annee;
 }

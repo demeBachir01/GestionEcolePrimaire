@@ -1,5 +1,6 @@
 package backen.gestionbulletinprimaire.Entites;
 
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -7,8 +8,11 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
+@Entity
+@Inheritance(strategy = InheritanceType.JOINED)
 public class Personne {
-    private long id;
+    @Id @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    private Long id;
     private String nom;
     private String prenom;
     private String adresse;

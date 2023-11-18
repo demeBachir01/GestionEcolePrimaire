@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.Collection;
+import java.util.List;
 
 @Entity
 @AllArgsConstructor
@@ -13,14 +14,14 @@ import java.util.Collection;
 @Data
 public class Composition {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    private Long id;
     private String nomCompo;
     @ManyToOne
     private Eleve eleve;
-    @OneToMany
-    private Collection<Matiere> matiere;
     @ManyToMany
-    private Collection<Semestre> semestre;
+    private List<Semestre> semestres;
+    @OneToMany(mappedBy = "composition")
+    private List<Matiere> matiere;
 
 }

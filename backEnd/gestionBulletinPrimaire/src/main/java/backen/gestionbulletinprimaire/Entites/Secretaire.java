@@ -1,5 +1,6 @@
 package backen.gestionbulletinprimaire.Entites;
 
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -7,6 +8,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
+@Entity
 public class Secretaire extends Personne {
-    private  long id;
+    @Id @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    private  Long id;
+    @OneToOne(mappedBy = "secretaire")
+    private Etablissement etablissement;
 }

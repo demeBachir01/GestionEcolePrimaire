@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 
 import java.util.Collection;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @AllArgsConstructor
@@ -14,10 +15,10 @@ import java.util.Date;
 @Data
 public class Annee {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    private Long id;
     private Date dateDebut;
     private Date dateFin;
-    @OneToMany
-    private Collection<Semestre> semestres;
+    @OneToMany(mappedBy = "annee")
+    private List<Semestre> semestres;
 }

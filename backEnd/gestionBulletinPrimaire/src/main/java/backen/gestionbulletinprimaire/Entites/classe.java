@@ -14,14 +14,13 @@ import java.util.List;
 @Data
 public class classe {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    private Long id;
     private String nomClasse;
-    private  int niveau;
-    @OneToOne
-    private Maitre maitre;
+    @ManyToMany(mappedBy = "classes")
+    private List<Maitre> maitres;
     @ManyToOne
-    private Niveau niveaus;
-    @OneToMany
-    private Collection<Eleve> eleves;
+    private Niveau niveaux;
+    @ManyToMany(mappedBy = "classe")
+    private List<Eleve> eleves;
 }

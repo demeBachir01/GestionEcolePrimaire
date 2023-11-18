@@ -9,10 +9,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
+@PrimaryKeyJoinColumn(name = "id")
 public class Directeur extends Personne {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
-    @OneToOne
+    @OneToOne(mappedBy = "directeur")
     private Etablissement etablissement;
+
 }
