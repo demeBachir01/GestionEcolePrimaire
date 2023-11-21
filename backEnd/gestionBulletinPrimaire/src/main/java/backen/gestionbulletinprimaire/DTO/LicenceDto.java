@@ -1,7 +1,11 @@
 package backen.gestionbulletinprimaire.DTO;
 
-import java.util.Date;
+import lombok.Builder;
+import lombok.Data;
 
+import java.util.Date;
+@Data
+@Builder
 public class LicenceDto {
     private Long id;
     private Long code;
