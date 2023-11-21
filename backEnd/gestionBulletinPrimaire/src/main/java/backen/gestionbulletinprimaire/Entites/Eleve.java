@@ -5,7 +5,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.Collection;
 import java.util.Date;
 import java.util.List;
 
@@ -13,13 +12,10 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class Eleve {
-    @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    private Long id;
-    private String nom;
-    private String prenom;
-    private String adresse;
+@PrimaryKeyJoinColumn(name = "id")
+public class Eleve extends  Personne {
+    @Id @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    private  Long id;
     private Long matricule;
     private Date dateNaissance;
     private String lieuDeNaissance;
