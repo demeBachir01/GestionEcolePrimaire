@@ -20,7 +20,7 @@ public class Eleve extends  Personne {
     private Date dateNaissance;
     private String lieuDeNaissance;
     @ManyToMany
-    private List<classe> classe;
+    private List<Classe> classe;
     @OneToMany(mappedBy = "eleve")
     private List<Composition> compositions;
 

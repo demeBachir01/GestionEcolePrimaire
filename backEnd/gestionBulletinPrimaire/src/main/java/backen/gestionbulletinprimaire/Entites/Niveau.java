@@ -16,5 +16,5 @@ public class Niveau {
     private Long id;
     private String nom;
     @OneToMany(mappedBy = "niveaux")
-    private List<classe> classe;
+    private List<Classe> classe;
 }

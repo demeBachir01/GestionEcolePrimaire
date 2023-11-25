@@ -5,7 +5,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.Collection;
 import java.util.List;
 
 @Entity
@@ -17,5 +16,5 @@ public class Maitre extends Personne {
     @ManyToOne
     private Etablissement etablissements;
     @ManyToMany
-    private List<classe> classes;
+    private List<Classe> classes;
 }

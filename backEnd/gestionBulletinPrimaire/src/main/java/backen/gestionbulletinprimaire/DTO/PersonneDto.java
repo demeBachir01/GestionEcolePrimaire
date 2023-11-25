@@ -1,10 +1,9 @@
 package backen.gestionbulletinprimaire.DTO;
 
-import lombok.Builder;
 import lombok.Data;
 
 @Data
-@Builder
+//@Builder
 public class PersonneDto {
     private Long id;
     private String nom;

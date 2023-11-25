@@ -1,11 +1,11 @@
 package backen.gestionbulletinprimaire.DTO;
 
-import lombok.Builder;
 import lombok.Data;
 
 @Data
-@Builder
-public class DirecteurDto {
+//@Builder
+public class DirecteurDto extends PersonneDto {
+    private Long id;
 
-    private EtablissementDto etablissementDto;
+   // private EtablissementDto etablissementDto;
 }

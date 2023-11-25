@@ -5,14 +5,13 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.Collection;
 import java.util.List;
 
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class classe {
+public class Classe {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;

@@ -5,9 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82af0ffd-82f9-439f-ba2f-5504b9f11b73" name="Changes" comment="les dto">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/mapper/Anneemapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/mapper/Classemapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/mapper/Compositionmapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/mapper/Directeurmapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/mapper/Elevemapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/mapper/Etablissementmapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/mapper/Licencemapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/mapper/Maitremapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/mapper/Matieremapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/mapper/Niveaumapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/mapper/Personnemapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/mapper/Secretairemapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/mapper/Semestremapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/AnneeDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/AnneeDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/ClasseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/ClasseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/CompositionDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/CompositionDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/DirecteurDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/DirecteurDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/EleveDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/EleveDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/EtablissementDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/EtablissementDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/LicenceDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/LicenceDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/MaitreDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/MaitreDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/MatiereDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/MatiereDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/NiveauDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/NiveauDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/PersonneDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/PersonneDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/SecretaireDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/SecretaireDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/SemestreDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/SemestreDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Eleve.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Eleve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Maitre.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Maitre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Niveau.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Niveau.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/classe.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Classe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +143,8 @@
       <workItem from="1700051831479" duration="21693000" />
       <workItem from="1700523600856" duration="7619000" />
       <workItem from="1700586420583" duration="856000" />
-      <workItem from="1700601553747" duration="1328000" />
+      <workItem from="1700601553747" duration="1783000" />
+      <workItem from="1700771564022" duration="9580000" />
     </task>
     <task id="LOCAL-00001" summary="les entites">
       <option name="closed" value="true" />
@@ -131,7 +162,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700601158044</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="les dto">
+      <option name="closed" value="true" />
+      <created>1700604677848</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700604677848</updated>
+    </task>
+    <task id="LOCAL-00004" summary="les dto">
+      <option name="closed" value="true" />
+      <created>1700604691681</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700604691681</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

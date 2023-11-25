@@ -1,19 +1,17 @@
 package backen.gestionbulletinprimaire.DTO;
 
-import lombok.Builder;
 import lombok.Data;
-
-import java.util.List;
 @Data
-@Builder
+//@Builder
 public class ClasseDto {
     private Long id;
     private String nomClasse;
+//    private NiveauDto niveauDto;
 
-    private List<MaitreDto> maitreDto;
-    private NiveauDto niveauDto;
+//    private List<MaitreDto> maitreDto;
 
-    private List<EleveDto> eleveDto;
+
+//    private List<EleveDto> eleveDto;
 
 
 }
