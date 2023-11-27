@@ -13,7 +13,7 @@ public class Classemapper {
         return classeDto;
     }
 
-    public Classe fromClasse_To_classe(ClasseDto classeDto){
+    public Classe fromClasseDTOclasse(ClasseDto classeDto){
      Classe classe=new Classe();
      BeanUtils.copyProperties(classeDto,classe);
      return classe;

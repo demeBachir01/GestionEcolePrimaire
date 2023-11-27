@@ -12,7 +12,7 @@ public class Compositionmapper {
         return  compositionDto;
     }
 
-    public Composition fromComposition_To_Composition(CompositionDto compositionDto){
+    public Composition fromCompositionDToComposition(CompositionDto compositionDto){
         Composition composition=new Composition();
         BeanUtils.copyProperties(compositionDto,composition);
         return composition;

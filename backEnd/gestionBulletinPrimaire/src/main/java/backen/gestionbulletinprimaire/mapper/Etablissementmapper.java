@@ -11,7 +11,7 @@ public class Etablissementmapper {
         return  etablissementDto;
     }
 
-    public Etablissement fromEtablissement_To_Etablissement (EtablissementDto etablissementDto){
+    public Etablissement fromEtablissementDToEtablissement (EtablissementDto etablissementDto){
         Etablissement etablissement=new Etablissement();
         BeanUtils.copyProperties(etablissementDto,etablissement);
         return etablissement;

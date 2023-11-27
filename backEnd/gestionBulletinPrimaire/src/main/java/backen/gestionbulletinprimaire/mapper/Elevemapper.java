@@ -13,7 +13,7 @@ public class Elevemapper {
 
     }
 
-    public Eleve fromEleve_To_Eleve(EleveDto eleveDto){
+    public Eleve fromEleveDToEleve(EleveDto eleveDto){
         Eleve eleve=new Eleve();
         BeanUtils.copyProperties(eleveDto,eleve);
         return eleve;

@@ -12,7 +12,7 @@ public class Niveaumapper {
         return  niveauDto;
     }
 
-    public  Niveau fromNiveau_To_Niveau(NiveauDto niveauDto){
+    public  Niveau fromNiveauDToNiveau(NiveauDto niveauDto){
         Niveau niveau=new Niveau();
         BeanUtils.copyProperties(niveauDto,niveau);
         return niveau;

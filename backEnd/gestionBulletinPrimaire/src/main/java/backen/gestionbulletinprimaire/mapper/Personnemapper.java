@@ -11,7 +11,7 @@ public class Personnemapper {
        return  personneDto;
     }
 
-    public  Personne fromPersonne_To_Personne(PersonneDto personneDto){
+    public  Personne fromPersonneDToPersonne(PersonneDto personneDto){
         Personne personne=new Personne();
         BeanUtils.copyProperties(personneDto,personne);
         return personne;

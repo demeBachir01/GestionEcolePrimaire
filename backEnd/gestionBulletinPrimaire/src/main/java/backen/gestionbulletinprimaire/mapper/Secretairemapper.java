@@ -12,7 +12,7 @@ public class Secretairemapper {
         return secretaireDto;
     }
 
-    public Secretaire fromSecretaire_To_Secretaire(SecretaireDto secretaireDto){
+    public Secretaire fromSecretaireDToSecretaire(SecretaireDto secretaireDto){
         Secretaire secretaire =new Secretaire();
         BeanUtils.copyProperties(secretaireDto,secretaire);
         return secretaire;

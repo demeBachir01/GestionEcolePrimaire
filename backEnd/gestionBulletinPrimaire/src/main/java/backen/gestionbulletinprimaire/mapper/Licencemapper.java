@@ -11,7 +11,7 @@ public class Licencemapper {
         return licenceDto;
     }
 
-    public Licence fromLicence_To_Licence(LicenceDto licenceDto){
+    public Licence fromLicenceDToLicence(LicenceDto licenceDto){
         Licence licence=new Licence();
         BeanUtils.copyProperties(licenceDto,licence);
         return licence;

@@ -11,7 +11,7 @@ public class Matieremapper {
         return matiereDto;
     }
 
-    public Matiere fromMatiere_To_Matiere(MatiereDto matiereDto){
+    public Matiere fromMatiereDToMatiere(MatiereDto matiereDto){
         Matiere matiere=new Matiere();
         BeanUtils.copyProperties(matiereDto,matiere);
         return matiere;

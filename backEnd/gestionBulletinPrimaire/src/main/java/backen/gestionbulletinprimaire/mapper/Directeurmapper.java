@@ -12,7 +12,7 @@ public class Directeurmapper {
 
     }
 
-    public Directeur  fromDirecteur_To_directeur(DirecteurDto directeurDto){
+    public Directeur  fromDirecteurDToDirecteur(DirecteurDto directeurDto){
         Directeur directeur=new Directeur();
         BeanUtils.copyProperties(directeur,directeurDto);
         return directeur;

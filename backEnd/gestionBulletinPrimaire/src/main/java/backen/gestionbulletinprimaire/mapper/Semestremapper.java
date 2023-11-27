@@ -11,7 +11,7 @@ public class Semestremapper {
         BeanUtils.copyProperties(semestre,semestreDto);
         return  semestreDto;
     }
-    public Semestre fromSemestre_To_Semestre(SemestreDto semestreDto){
+    public Semestre fromSemestreDToSemestre(SemestreDto semestreDto){
         Semestre semestre=new Semestre();
         BeanUtils.copyProperties(semestreDto,semestre);
         return semestre;

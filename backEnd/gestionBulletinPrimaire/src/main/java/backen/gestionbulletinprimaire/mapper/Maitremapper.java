@@ -11,7 +11,7 @@ public class Maitremapper {
         return maitreDto;
     }
 
-    public Maitre fromMaitre_To_Maitre(MaitreDto maitreDto){
+    public Maitre fromMaitreDToMaitre(MaitreDto maitreDto){
         Maitre maitre=new Maitre();
         BeanUtils.copyProperties(maitreDto,maitre);
         return maitre;

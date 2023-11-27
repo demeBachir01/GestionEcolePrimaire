@@ -11,7 +11,7 @@ public class Anneemapper {
         return  anneeDto;
     }
 
-    public  Annee fromAnnee_To_Annee(AnneeDto anneeDto){
+    public  Annee fromAnneeDTOAnnee(AnneeDto anneeDto){
         Annee annee=new Annee();
         BeanUtils.copyProperties(anneeDto,annee);
         return annee;
