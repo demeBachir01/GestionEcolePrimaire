@@ -2,7 +2,22 @@
 <project version="4">
   <component name="DdlMappings">
     <mapping uuid="7a66920e-d1ab-45a9-a23a-05eb99b7d401" name="DDL Mapping">
-      <data-sources db="9ca53a40-a5bb-4dd0-b1f9-af08fb540d08" />
+      <data-sources db="9ca53a40-a5bb-4dd0-b1f9-af08fb540d08" ddl="94d2ac8e-9ae0-4250-92f6-cdff642d25ec" />
     </mapping>
+  </component>
+  <component name="SqlDataSourceStorage">
+    <option name="dataSources">
+      <list>
+        <State>
+          <option name="id" value="94d2ac8e-9ae0-4250-92f6-cdff642d25ec" />
+          <option name="name" value="gestionbultin@localhost (DDL)" />
+          <option name="dbmsName" value="MYSQL" />
+          <option name="urls">
+            <array />
+          </option>
+          <option name="outLayout" value="File per object by schema.groovy" />
+        </State>
+      </list>
+    </option>
   </component>
 </project>
