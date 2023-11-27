@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82af0ffd-82f9-439f-ba2f-5504b9f11b73" name="Changes" comment="les dto">
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Repository/AnneeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Repository/ClasseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Repository/CompositionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Repository/Directeur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Repository/EleveRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Repository/EtablissementRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Repository/LicenceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Repository/MaitreRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Repository/MatiereRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Repository/NiveauRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Repository/PersonneRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Repository/SecretaireRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Repository/SemestreRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqlDataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqlDataSources.xml" afterDir="false" />
+    <list default="true" id="82af0ffd-82f9-439f-ba2f-5504b9f11b73" name="Changes" comment="Mise a jour concernant les entites">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Bachir Deme &lt;demebachir65@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -131,6 +122,8 @@
       <workItem from="1700948536364" duration="60000" />
       <workItem from="1700948657876" duration="2047000" />
       <workItem from="1701114681865" duration="224000" />
+      <workItem from="1701114911628" duration="1122000" />
+      <workItem from="1701116061712" duration="128000" />
     </task>
     <task id="LOCAL-00001" summary="les entites">
       <option name="closed" value="true" />
@@ -172,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700924495931</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Mise a jour concernant les entites">
+      <option name="closed" value="true" />
+      <created>1701114992385</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701114992385</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +244,8 @@
     <MESSAGE value="entites&#10;&#10;commit des entites" />
     <MESSAGE value="les entites" />
     <MESSAGE value="les dto" />
-    <option name="LAST_COMMIT_MESSAGE" value="les dto" />
+    <MESSAGE value="Mise a jour concernant les entites" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise a jour concernant les entites" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
