@@ -17,6 +17,7 @@ public class Eleve extends  Personne {
     @Id @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private  Long id;
     private Long matricule;
+   // @DateTimeFormat(pattern="DD/MM/YYYY")
     private Date dateNaissance;
     private String lieuDeNaissance;
     @ManyToMany

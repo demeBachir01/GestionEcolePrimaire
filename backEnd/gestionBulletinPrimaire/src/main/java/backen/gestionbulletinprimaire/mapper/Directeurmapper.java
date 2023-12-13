@@ -7,14 +7,13 @@ import org.springframework.beans.BeanUtils;
 public class Directeurmapper {
     public DirecteurDto fromDirecteurToDirecteurDto(Directeur directeur){
         DirecteurDto directeurDto=new DirecteurDto();
-        BeanUtils.copyProperties(directeurDto,directeur);
+        BeanUtils.copyProperties(directeur,directeurDto);
         return directeurDto;
-
     }
 
     public Directeur  fromDirecteurDToDirecteur(DirecteurDto directeurDto){
         Directeur directeur=new Directeur();
-        BeanUtils.copyProperties(directeur,directeurDto);
+        BeanUtils.copyProperties(directeurDto,directeur);
         return directeur;
     }
 }

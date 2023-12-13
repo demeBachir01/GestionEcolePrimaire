@@ -6,7 +6,7 @@ import org.springframework.beans.BeanUtils;
 
 public class Elevemapper {
 
-    public EleveDto formEleveToEleveDDto(Eleve eleve){
+    public EleveDto formEleveToEleveDto(Eleve eleve){
         EleveDto eleveDto=new EleveDto();
         BeanUtils.copyProperties(eleve ,eleveDto);
         return eleveDto;
