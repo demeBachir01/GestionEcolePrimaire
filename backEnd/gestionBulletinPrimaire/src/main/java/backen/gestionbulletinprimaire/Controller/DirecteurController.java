@@ -23,7 +23,7 @@ public class DirecteurController {
     private DirecteurService directeurService;
     @GetMapping("All")
     public List<DirecteurDto> getAll(){
-        return directeurService.ListAllDirecteur();
+        return directeurService.listAllDirecteur();
     }
 
     // Méthode pour ajouter une Directeur

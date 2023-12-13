@@ -7,6 +7,7 @@ import backen.gestionbulletinprimaire.Repository.DirecteurRepository;
 import backen.gestionbulletinprimaire.Repository.EtablissementRepository;
 import backen.gestionbulletinprimaire.Repository.PersonneRepository;
 import backen.gestionbulletinprimaire.mapper.Directeurmapper;
+import backen.gestionbulletinprimaire.mapper.Etablissementmapper;
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -23,9 +24,10 @@ public class DirecteurService {
     private PersonneRepository personneRepository;
     @Autowired
     private EtablissementRepository etablissementRepository;
+    private Etablissementmapper etablissementmapper;
     private Directeurmapper directeurmapper =new Directeurmapper();
 
-    public List<DirecteurDto> ListAllDirecteur(){
+    public List<DirecteurDto> listAllDirecteur(){
 
         List<Directeur> directeurs=directeurRepository.findAll();
         List<DirecteurDto> directeurDtos=new ArrayList<>();
@@ -43,10 +45,12 @@ public class DirecteurService {
         return directeurmapper.fromDirecteurToDirecteurDto(directeur);
     }
 
-    // Méthode pour ajouter une Directeur
+    // Méthode pour ajouter un Directeur
     public DirecteurDto addDirecteur(DirecteurDto directeurDto) {
        // Directeur directeur=new Directeur();
         Directeur directeur=directeurmapper.fromDirecteurDToDirecteur(directeurDto);
+        Etablissement etablissement=etablissementRepository.findById(directeur.getEtablissement().getId()).get();
+        directeur.setEtablissement(etablissement);
         return directeurmapper.fromDirecteurToDirecteurDto(directeurRepository.save(directeur));
     }
 
@@ -60,11 +64,9 @@ public class DirecteurService {
             directeur.setAdresse(directeurDto.getAdresse());
             directeur.setEmail(directeurDto.getEmail());
             directeur.setTelephone(directeurDto.getTelephone());
-            directeur.setEtablissement(new Etablissement());
-
+            directeur.setEtablissement(etablissementmapper.fromEtablissementDToEtablissement(directeurDto.getEtablissement()));
             directeurRepository.save(directeur);
         }
-
     }
 
     // Méthode pour supprimer une Directeur par son ID
