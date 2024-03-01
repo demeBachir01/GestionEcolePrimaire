@@ -11,6 +11,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
+@Table(name = "etablissment")
 public class Etablissement {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)

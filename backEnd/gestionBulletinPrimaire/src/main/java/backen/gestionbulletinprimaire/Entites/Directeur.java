@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
+@Table(name = "directeur")
 @PrimaryKeyJoinColumn(name = "id")
 public class Directeur extends Personne {
     @OneToOne(mappedBy = "directeur")

@@ -10,6 +10,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
+@Table(name = "niveau")
 public class Niveau {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)

@@ -64,7 +64,7 @@ public class DirecteurService {
             directeur.setAdresse(directeurDto.getAdresse());
             directeur.setEmail(directeurDto.getEmail());
             directeur.setTelephone(directeurDto.getTelephone());
-            directeur.setEtablissement(etablissementmapper.fromEtablissementDToEtablissement(directeurDto.getEtablissement()));
+            directeur.setEtablissement(etablissementmapper.fromEtablissementDToEtablissement(directeurDto.getEtablissementDto()));
             directeurRepository.save(directeur);
         }
     }

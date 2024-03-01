@@ -6,5 +6,5 @@ import lombok.Data;
 //@Builder
 public class SecretaireDto extends PersonneDto{
     private  Long id;
-   // private EtablissementDto etablissementDto;
+    private EtablissementDto etablissementDto;
 }

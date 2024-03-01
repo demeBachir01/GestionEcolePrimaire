@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 @Entity
+@Table(name = "secretaire")
 public class Secretaire extends Personne {
     @Id @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private  Long id;

@@ -6,6 +6,7 @@ import backen.gestionbulletinprimaire.Entites.Secretaire;
 import backen.gestionbulletinprimaire.Repository.EtablissementRepository;
 import backen.gestionbulletinprimaire.Repository.PersonneRepository;
 import backen.gestionbulletinprimaire.Repository.SecretaireRepository;
+import backen.gestionbulletinprimaire.mapper.Etablissementmapper;
 import backen.gestionbulletinprimaire.mapper.Secretairemapper;
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +24,7 @@ public class SecretaireService {
     private PersonneRepository personneRepository;
     @Autowired
     private EtablissementRepository etablissementRepository;
+    private Etablissementmapper etablissementmapper;
     private Secretairemapper secretairemapper =new Secretairemapper();
 
 
@@ -49,6 +51,8 @@ public class SecretaireService {
     public SecretaireDto addSecretaire(SecretaireDto secretaireDto) {
         //personnemapper =new Personnemapper();
         Secretaire secretaire=secretairemapper.fromSecretaireDToSecretaire(secretaireDto);
+        Etablissement etablissement=etablissementRepository.findById(secretaire.getEtablissement().getId()).get();
+        secretaire.setEtablissement(etablissement);
         return secretairemapper.fromSecretaireToSecretaireDto(secretaireRepository.save(secretaire));
     }
 
@@ -62,7 +66,7 @@ public class SecretaireService {
             secretaire.setAdresse(secretaireDto.getAdresse());
             secretaire.setEmail(secretaireDto.getEmail());
             secretaire.setTelephone(secretaireDto.getTelephone());
-            secretaire.setEtablissement(new Etablissement());
+            //secretaire.setEtablissement(etablissementmapper.fromEtablissemetToEtablissementDto(secretaireDto.getEtablissementDto()));
 
             secretaireRepository.save(secretaire);
         }

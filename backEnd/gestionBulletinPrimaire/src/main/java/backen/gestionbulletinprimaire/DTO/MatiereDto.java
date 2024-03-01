@@ -8,8 +8,7 @@ public class MatiereDto {
     private Long id;
     private String libelle;
     private Double note;
-
-   // private CompositionDto compositionDto;
+    private CompositionDto compositionDto;
 
 
 }

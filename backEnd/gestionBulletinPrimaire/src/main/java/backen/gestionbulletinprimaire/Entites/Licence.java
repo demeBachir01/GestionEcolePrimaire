@@ -10,11 +10,15 @@ import java.util.Date;
 @NoArgsConstructor
 @Data
 @Entity
+@Table(name = "licence")
 public class Licence {
     @Id @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
+    @Column(nullable = false)
     private Long code;
+    @Column(nullable = false)
     private Date dateDebut;
+    @Column(nullable = false)
     private Date dateFin;
     @ManyToOne
     private Etablissement etablissement;

@@ -4,40 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82af0ffd-82f9-439f-ba2f-5504b9f11b73" name="Changes" comment="les repository">
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Controller/AnneeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Controller/ClasseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Controller/CompositionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Controller/DirecteurController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Controller/EleveController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Controller/EtablissementController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Controller/LicenceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Controller/MaitreController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Controller/MatiereController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Controller/NiveauController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Controller/PersonneController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Controller/SecretaireController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Controller/SemestreController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Service/AnneeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Service/ClasseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Service/CompositionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Service/DirecteurService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Service/EleveService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Service/EtablissementService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Service/LicenceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Service/MaitreService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Service/MatiereService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Service/NiveauService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Service/PersonneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Service/SecretaireService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Service/SemestreService.java" afterDir="false" />
+    <list default="true" id="82af0ffd-82f9-439f-ba2f-5504b9f11b73" name="Changes" comment="les controller">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/ClasseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/ClasseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/CompositionDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/CompositionDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/DirecteurDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/DirecteurDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/EleveDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/EleveDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/EtablissementDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/EtablissementDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/LicenceDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/LicenceDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/MaitreDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/MaitreDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/MatiereDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/MatiereDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/NiveauDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/NiveauDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/SecretaireDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/SecretaireDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/SemestreDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/DTO/SemestreDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Annee.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Annee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Classe.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Classe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Composition.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Composition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Directeur.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Directeur.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Eleve.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Eleve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Repository/Directeur.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Repository/DirecteurRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/mapper/Directeurmapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/mapper/Directeurmapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/mapper/Elevemapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/mapper/Elevemapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/mapper/Personnemapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/mapper/Personnemapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Etablissement.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Etablissement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Licence.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Licence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Maitre.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Maitre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Matiere.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Matiere.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Niveau.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Niveau.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Personne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Secretaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Secretaire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Semestre.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Entites/Semestre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Service/DirecteurService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Service/DirecteurService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Service/SecretaireService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backEnd/gestionBulletinPrimaire/src/main/java/backen/gestionbulletinprimaire/Service/SecretaireService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +51,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="Bachir Deme &lt;demebachir65@gmail.com&gt;" />
@@ -73,7 +81,7 @@
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
         <option name="accountId" value="10d15e68-667f-4334-a93b-d95e3d3bf19c" />
-        <option name="url" value="https://github.com/demeBachir01/GestionEcolePrimaire.git" />
+        <option name="url" value="https://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@github.com/demeBachir01/GestionEcolePrimaire" />
       </UrlAndAccount>
     </option>
   </component>
@@ -165,7 +173,12 @@
       <workItem from="1701356941326" duration="4968000" />
       <workItem from="1701642193819" duration="1208000" />
       <workItem from="1701799997356" duration="36360000" />
-      <workItem from="1702328327767" duration="16450000" />
+      <workItem from="1702328327767" duration="22958000" />
+      <workItem from="1702660346578" duration="1179000" />
+      <workItem from="1703365529605" duration="797000" />
+      <workItem from="1703974174605" duration="2000" />
+      <workItem from="1705592458257" duration="11431000" />
+      <workItem from="1709237824753" duration="1055000" />
     </task>
     <task id="LOCAL-00001" summary="les entites">
       <option name="closed" value="true" />
@@ -223,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701116262183</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="les controller">
+      <option name="closed" value="true" />
+      <created>1702476240302</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702476240302</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +259,11 @@
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="origin/main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
                 </option>
               </RecentGroup>
               <RecentGroup>
@@ -271,7 +297,15 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="date">
+                    <value>
+                      <list>
+                        <option value="1701888482430" />
+                        <option value="" />
                       </list>
                     </value>
                   </entry>
@@ -283,6 +317,11 @@
                     </value>
                   </entry>
                 </map>
+              </option>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="MATCH_CASE" value="true" />
+                </TextFilterSettings>
               </option>
             </State>
           </value>
@@ -296,7 +335,8 @@
     <MESSAGE value="les dto" />
     <MESSAGE value="Mise a jour concernant les entites" />
     <MESSAGE value="les repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="les repository" />
+    <MESSAGE value="les controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="les controller" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

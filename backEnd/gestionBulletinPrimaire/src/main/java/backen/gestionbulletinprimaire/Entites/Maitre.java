@@ -11,6 +11,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
+@Table(name = "maitre")
 @PrimaryKeyJoinColumn(name = "id")
 public class Maitre extends Personne {
     @ManyToOne
